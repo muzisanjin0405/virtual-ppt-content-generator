@@ -101,9 +101,9 @@ ZIP 内保留 `virtual-ppt-content-generator/` 顶层目录，可直接解压到
 4. 提交修改，并创建与版本一致的标签。
 
 ```powershell
-git tag v2.6.1
+git tag v2.6.0
 git push origin main
-git push origin v2.6.1
+git push origin v2.6.0
 ```
 
 推送 `v*` 标签后，GitHub Actions 会自动完成校验、打包、SHA-256 生成和 Release 发布。
